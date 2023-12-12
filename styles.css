@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(226, 211, 43);
+    color: blue;
+    margin: 0;
+}
+
+header{
+    background-color: #f60;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+#stories-container{
+    margin-top: 20px;
+}
+
+.story{
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 600px){
+    /* mobile resposive */
+}
