@@ -35,8 +35,9 @@ function addStoryToDOM(story) {
         <a href="${story.url}" target="_blank">${story.title}</a>
         <p>${story.score} points by ${story.by} | ${story.descendants} comments</p>
     `;
-    storiesContainer.appendChild(storyElement);
+    
 }
+
 function handleResponse(response) {
     if (!response.ok) {
         throw new Error('Network response was not ok');
